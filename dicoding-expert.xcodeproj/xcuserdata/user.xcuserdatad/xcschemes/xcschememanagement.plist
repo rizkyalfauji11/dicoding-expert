@@ -48,8 +48,28 @@
 		</dict>
 		<key>dicoding-expert.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CE4EC6AF26CCEA84003B7BF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE4EC6C026CCEA86003B7BF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE4EC6CB26CCEA86003B7BF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
