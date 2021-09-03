@@ -1,0 +1,6 @@
+framework module Pods_dicoding_expert_dicoding_expertUITests {
+  umbrella header "Pods-dicoding-expert-dicoding-expertUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

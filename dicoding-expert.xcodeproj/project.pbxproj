@@ -7,39 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EACBD2FC53F68DFF2E8C909 /* Pods_dicoding_expert_dicoding_expertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA81C8B6323AFC8BFC68FDB9 /* Pods_dicoding_expert_dicoding_expertUITests.framework */; };
+		C964576CC0DAC8E09FEDAB21 /* Pods_dicoding_expertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC194722B2FDDAF8F62DB99 /* Pods_dicoding_expertTests.framework */; };
+		CE009D6126E224F3006F2EEB /* Pods_dicoding_expert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AACD34D6EFB19B631BBE53 /* Pods_dicoding_expert.framework */; };
+		CE009D6226E224F3006F2EEB /* Pods_dicoding_expert.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21AACD34D6EFB19B631BBE53 /* Pods_dicoding_expert.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE196BB226D8A75D00412B59 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE196BB126D8A75D00412B59 /* ProfileView.swift */; };
-		CE435CFB26CE174400AFD4D2 /* RestaurantEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435CFA26CE174400AFD4D2 /* RestaurantEntity.swift */; };
-		CE435CFE26CE1B4000AFD4D2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CE435CFD26CE1B4000AFD4D2 /* Realm */; };
-		CE435D0026CE1B4000AFD4D2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE435CFF26CE1B4000AFD4D2 /* RealmSwift */; };
-		CE435D0226CE1D0300AFD4D2 /* RestaurantLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D0126CE1D0300AFD4D2 /* RestaurantLocalDataSource.swift */; };
-		CE435D0426CE21A500AFD4D2 /* CustomError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D0326CE21A500AFD4D2 /* CustomError+Ext.swift */; };
-		CE435D0826CE226C00AFD4D2 /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D0726CE226C00AFD4D2 /* RestaurantResponse.swift */; };
-		CE435D0B26CE22C300AFD4D2 /* RestaurantRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D0A26CE22C300AFD4D2 /* RestaurantRemoteDataSource.swift */; };
-		CE435D0F26CE247700AFD4D2 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D0E26CE247700AFD4D2 /* APICall.swift */; };
-		CE435D1126CE279900AFD4D2 /* RestaurantRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D1026CE279900AFD4D2 /* RestaurantRepository.swift */; };
-		CE435D1426CE27F100AFD4D2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D1326CE27F100AFD4D2 /* RestaurantModel.swift */; };
-		CE435D1726CE2A1100AFD4D2 /* RestaurantMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D1626CE2A1100AFD4D2 /* RestaurantMapper.swift */; };
-		CE435D1926CE2F6700AFD4D2 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE435D1826CE2F6700AFD4D2 /* Injection.swift */; };
+		CE33FEFD26E25C6100F0AA9A /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = CE33FEFC26E25C6100F0AA9A /* CorePackage */; };
 		CE4EC6B426CCEA84003B7BF4 /* dicoding_expertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6B326CCEA84003B7BF4 /* dicoding_expertApp.swift */; };
 		CE4EC6B626CCEA84003B7BF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6B526CCEA84003B7BF4 /* ContentView.swift */; };
 		CE4EC6B826CCEA86003B7BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EC6B726CCEA86003B7BF4 /* Assets.xcassets */; };
 		CE4EC6BB26CCEA86003B7BF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EC6BA26CCEA86003B7BF4 /* Preview Assets.xcassets */; };
 		CE4EC6C626CCEA86003B7BF4 /* dicoding_expertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6C526CCEA86003B7BF4 /* dicoding_expertTests.swift */; };
 		CE4EC6D126CCEA86003B7BF4 /* dicoding_expertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6D026CCEA86003B7BF4 /* dicoding_expertUITests.swift */; };
-		CE4EC6E026CCEB7E003B7BF4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE4EC6DF26CCEB7E003B7BF4 /* Alamofire */; };
 		CE4EC6EF26CCEE31003B7BF4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE4EC6EE26CCEE31003B7BF4 /* SDWebImageSwiftUI */; };
 		CE64A2C226D798AE0010ED76 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A2C126D798AE0010ED76 /* FavoritePresenter.swift */; };
-		CE79AF3626D75050004B6E19 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79AF3526D75050004B6E19 /* TabItem.swift */; };
 		CEB19A8426D7844800314E4B /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB19A8326D7844800314E4B /* FavoriteView.swift */; };
-		CEE359AE26CF54290098970A /* GetRestaurantsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359AD26CF54290098970A /* GetRestaurantsUseCase.swift */; };
 		CEE359B026CF55E60098970A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359AF26CF55E60098970A /* HomeView.swift */; };
 		CEE359B426CF565B0098970A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359B326CF565B0098970A /* HomePresenter.swift */; };
 		CEE359B726CF56AB0098970A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359B626CF56AB0098970A /* HomeRouter.swift */; };
-		CEE359BA26CF59F10098970A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359B926CF59F10098970A /* ActivityIndicator.swift */; };
 		CEE359BD26CF5B290098970A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359BC26CF5B290098970A /* DetailView.swift */; };
 		CEE359BF26CF5BB60098970A /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359BE26CF5BB60098970A /* RestaurantRow.swift */; };
 		CEE359C226CF80050098970A /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359C126CF80050098970A /* DetailPresenter.swift */; };
-		CEE359C426CF80480098970A /* SaveRestaurantUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE359C326CF80480098970A /* SaveRestaurantUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +47,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CE009D6326E224F3006F2EEB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE009D6226E224F3006F2EEB /* Pods_dicoding_expert.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0B088B13AF5E207D7B4CA200 /* Pods-dicoding-expertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-expertTests.debug.xcconfig"; path = "Target Support Files/Pods-dicoding-expertTests/Pods-dicoding-expertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21AACD34D6EFB19B631BBE53 /* Pods_dicoding_expert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicoding_expert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		378371E629E038CC45AABD3D /* Pods-dicoding-expert-dicoding-expertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-expert-dicoding-expertUITests.debug.xcconfig"; path = "Target Support Files/Pods-dicoding-expert-dicoding-expertUITests/Pods-dicoding-expert-dicoding-expertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CCA3EB57FB86E77694B2EAB /* Pods-dicoding-expert-dicoding-expertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-expert-dicoding-expertUITests.release.xcconfig"; path = "Target Support Files/Pods-dicoding-expert-dicoding-expertUITests/Pods-dicoding-expert-dicoding-expertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73ECD8A51AFB17A1D8F502DB /* Pods-dicoding-expert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-expert.debug.xcconfig"; path = "Target Support Files/Pods-dicoding-expert/Pods-dicoding-expert.debug.xcconfig"; sourceTree = "<group>"; };
+		8EC194722B2FDDAF8F62DB99 /* Pods_dicoding_expertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicoding_expertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D24C7515B2BEC1CFA8C1886 /* Pods-dicoding-expert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-expert.release.xcconfig"; path = "Target Support Files/Pods-dicoding-expert/Pods-dicoding-expert.release.xcconfig"; sourceTree = "<group>"; };
+		CE009D5426E2031C006F2EEB /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE196BB126D8A75D00412B59 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		CE435CFA26CE174400AFD4D2 /* RestaurantEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantEntity.swift; sourceTree = "<group>"; };
-		CE435D0126CE1D0300AFD4D2 /* RestaurantLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLocalDataSource.swift; sourceTree = "<group>"; };
-		CE435D0326CE21A500AFD4D2 /* CustomError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomError+Ext.swift"; sourceTree = "<group>"; };
-		CE435D0726CE226C00AFD4D2 /* RestaurantResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
-		CE435D0A26CE22C300AFD4D2 /* RestaurantRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRemoteDataSource.swift; sourceTree = "<group>"; };
-		CE435D0E26CE247700AFD4D2 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
-		CE435D1026CE279900AFD4D2 /* RestaurantRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRepository.swift; sourceTree = "<group>"; };
-		CE435D1326CE27F100AFD4D2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
-		CE435D1626CE2A1100AFD4D2 /* RestaurantMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapper.swift; sourceTree = "<group>"; };
-		CE435D1826CE2F6700AFD4D2 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 		CE4EC6B026CCEA84003B7BF4 /* dicoding-expert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-expert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4EC6B326CCEA84003B7BF4 /* dicoding_expertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_expertApp.swift; sourceTree = "<group>"; };
 		CE4EC6B526CCEA84003B7BF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,17 +84,15 @@
 		CE4EC6D026CCEA86003B7BF4 /* dicoding_expertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_expertUITests.swift; sourceTree = "<group>"; };
 		CE4EC6D226CCEA86003B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE64A2C126D798AE0010ED76 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
-		CE79AF3526D75050004B6E19 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		CEB19A8326D7844800314E4B /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
-		CEE359AD26CF54290098970A /* GetRestaurantsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRestaurantsUseCase.swift; sourceTree = "<group>"; };
 		CEE359AF26CF55E60098970A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CEE359B326CF565B0098970A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		CEE359B626CF56AB0098970A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		CEE359B926CF59F10098970A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		CEE359BC26CF5B290098970A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CEE359BE26CF5BB60098970A /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
 		CEE359C126CF80050098970A /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
-		CEE359C326CF80480098970A /* SaveRestaurantUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveRestaurantUseCase.swift; sourceTree = "<group>"; };
+		EA81C8B6323AFC8BFC68FDB9 /* Pods_dicoding_expert_dicoding_expertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicoding_expert_dicoding_expertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED95387C5AF5A48458D0CBC2 /* Pods-dicoding-expertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-expertTests.release.xcconfig"; path = "Target Support Files/Pods-dicoding-expertTests/Pods-dicoding-expertTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE435D0026CE1B4000AFD4D2 /* RealmSwift in Frameworks */,
-				CE435CFE26CE1B4000AFD4D2 /* Realm in Frameworks */,
+				CE33FEFD26E25C6100F0AA9A /* CorePackage in Frameworks */,
+				CE009D6126E224F3006F2EEB /* Pods_dicoding_expert.framework in Frameworks */,
 				CE4EC6EF26CCEE31003B7BF4 /* SDWebImageSwiftUI in Frameworks */,
-				CE4EC6E026CCEB7E003B7BF4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C964576CC0DAC8E09FEDAB21 /* Pods_dicoding_expertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,84 +118,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EACBD2FC53F68DFF2E8C909 /* Pods_dicoding_expert_dicoding_expertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A8CA728C735F124D634080C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73ECD8A51AFB17A1D8F502DB /* Pods-dicoding-expert.debug.xcconfig */,
+				9D24C7515B2BEC1CFA8C1886 /* Pods-dicoding-expert.release.xcconfig */,
+				378371E629E038CC45AABD3D /* Pods-dicoding-expert-dicoding-expertUITests.debug.xcconfig */,
+				5CCA3EB57FB86E77694B2EAB /* Pods-dicoding-expert-dicoding-expertUITests.release.xcconfig */,
+				0B088B13AF5E207D7B4CA200 /* Pods-dicoding-expertTests.debug.xcconfig */,
+				ED95387C5AF5A48458D0CBC2 /* Pods-dicoding-expertTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		608C66F78796A7B4450932C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE009D5426E2031C006F2EEB /* Core.framework */,
+				21AACD34D6EFB19B631BBE53 /* Pods_dicoding_expert.framework */,
+				EA81C8B6323AFC8BFC68FDB9 /* Pods_dicoding_expert_dicoding_expertUITests.framework */,
+				8EC194722B2FDDAF8F62DB99 /* Pods_dicoding_expertTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE196BB026D8A75000412B59 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 				CE196BB126D8A75D00412B59 /* ProfileView.swift */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		CE435CF826CE171F00AFD4D2 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				CE435CF926CE172900AFD4D2 /* Entity */,
-				CE435D0126CE1D0300AFD4D2 /* RestaurantLocalDataSource.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		CE435CF926CE172900AFD4D2 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				CE435CFA26CE174400AFD4D2 /* RestaurantEntity.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		CE435D0526CE224E00AFD4D2 /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D0626CE225500AFD4D2 /* Response */,
-				CE435D0A26CE22C300AFD4D2 /* RestaurantRemoteDataSource.swift */,
-			);
-			path = Remote;
-			sourceTree = "<group>";
-		};
-		CE435D0626CE225500AFD4D2 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D0726CE226C00AFD4D2 /* RestaurantResponse.swift */,
-			);
-			path = Response;
-			sourceTree = "<group>";
-		};
-		CE435D0C26CE245900AFD4D2 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D0326CE21A500AFD4D2 /* CustomError+Ext.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		CE435D0D26CE246600AFD4D2 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D0E26CE247700AFD4D2 /* APICall.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		CE435D1226CE27E000AFD4D2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D1326CE27F100AFD4D2 /* RestaurantModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CE435D1526CE29F500AFD4D2 /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D1626CE2A1100AFD4D2 /* RestaurantMapper.swift */,
-			);
-			path = Mapper;
 			sourceTree = "<group>";
 		};
 		CE4EC6A726CCEA84003B7BF4 = {
@@ -207,6 +164,8 @@
 				CE4EC6C426CCEA86003B7BF4 /* dicoding-expertTests */,
 				CE4EC6CF26CCEA86003B7BF4 /* dicoding-expertUITests */,
 				CE4EC6B126CCEA84003B7BF4 /* Products */,
+				4A8CA728C735F124D634080C /* Pods */,
+				608C66F78796A7B4450932C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,7 +187,6 @@
 				CE4EC6B726CCEA86003B7BF4 /* Assets.xcassets */,
 				CE4EC6BC26CCEA86003B7BF4 /* Info.plist */,
 				CE4EC6E626CCEDCD003B7BF4 /* Module */,
-				CE4EC6E526CCEDC2003B7BF4 /* Core */,
 				CE4EC6E426CCEDBB003B7BF4 /* App */,
 				CE4EC6B926CCEA86003B7BF4 /* Preview Content */,
 			);
@@ -268,17 +226,6 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		CE4EC6E526CCEDC2003B7BF4 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				CE4EC6EA26CCEDEC003B7BF4 /* Utils */,
-				CE4EC6E926CCEDE7003B7BF4 /* Domain */,
-				CE4EC6E826CCEDE0003B7BF4 /* DI */,
-				CE4EC6E726CCEDD8003B7BF4 /* Data */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		CE4EC6E626CCEDCD003B7BF4 /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,44 +235,6 @@
 				CE4EC6EB26CCEDF3003B7BF4 /* Home */,
 			);
 			path = Module;
-			sourceTree = "<group>";
-		};
-		CE4EC6E726CCEDD8003B7BF4 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D0526CE224E00AFD4D2 /* Remote */,
-				CE435CF826CE171F00AFD4D2 /* Local */,
-				CE435D1026CE279900AFD4D2 /* RestaurantRepository.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		CE4EC6E826CCEDE0003B7BF4 /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				CE435D1826CE2F6700AFD4D2 /* Injection.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		CE4EC6E926CCEDE7003B7BF4 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				CEE359AC26CF53F90098970A /* Usecase */,
-				CE435D1226CE27E000AFD4D2 /* Model */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		CE4EC6EA26CCEDEC003B7BF4 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				CEE359B826CF59E40098970A /* View */,
-				CE435D1526CE29F500AFD4D2 /* Mapper */,
-				CE435D0D26CE246600AFD4D2 /* Network */,
-				CE435D0C26CE245900AFD4D2 /* Extension */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		CE4EC6EB26CCEDF3003B7BF4 /* Home */ = {
@@ -380,15 +289,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		CEE359AC26CF53F90098970A /* Usecase */ = {
-			isa = PBXGroup;
-			children = (
-				CEE359AD26CF54290098970A /* GetRestaurantsUseCase.swift */,
-				CEE359C326CF80480098970A /* SaveRestaurantUseCase.swift */,
-			);
-			path = Usecase;
-			sourceTree = "<group>";
-		};
 		CEE359B126CF56450098970A /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,15 +314,6 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		CEE359B826CF59E40098970A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CEE359B926CF59F10098970A /* ActivityIndicator.swift */,
-				CE79AF3526D75050004B6E19 /* TabItem.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		CEE359BB26CF5B1A0098970A /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,10 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4EC6D526CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expert" */;
 			buildPhases = (
+				B8F76A58F5D5BD09293EE81C /* [CP] Check Pods Manifest.lock */,
 				CE4EC6AC26CCEA84003B7BF4 /* Sources */,
 				CE4EC6AD26CCEA84003B7BF4 /* Frameworks */,
 				CE4EC6AE26CCEA84003B7BF4 /* Resources */,
 				CE4EC6F026CCF9C5003B7BF4 /* ShellScript */,
+				CE009D6326E224F3006F2EEB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -457,10 +350,8 @@
 			);
 			name = "dicoding-expert";
 			packageProductDependencies = (
-				CE4EC6DF26CCEB7E003B7BF4 /* Alamofire */,
 				CE4EC6EE26CCEE31003B7BF4 /* SDWebImageSwiftUI */,
-				CE435CFD26CE1B4000AFD4D2 /* Realm */,
-				CE435CFF26CE1B4000AFD4D2 /* RealmSwift */,
+				CE33FEFC26E25C6100F0AA9A /* CorePackage */,
 			);
 			productName = "dicoding-expert";
 			productReference = CE4EC6B026CCEA84003B7BF4 /* dicoding-expert.app */;
@@ -470,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4EC6D826CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expertTests" */;
 			buildPhases = (
+				8F6BBD98DF79A7B912AB1BA4 /* [CP] Check Pods Manifest.lock */,
 				CE4EC6BD26CCEA86003B7BF4 /* Sources */,
 				CE4EC6BE26CCEA86003B7BF4 /* Frameworks */,
 				CE4EC6BF26CCEA86003B7BF4 /* Resources */,
@@ -488,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4EC6DB26CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expertUITests" */;
 			buildPhases = (
+				51EFFC2F39AF5330FD09D57C /* [CP] Check Pods Manifest.lock */,
 				CE4EC6C826CCEA86003B7BF4 /* Sources */,
 				CE4EC6C926CCEA86003B7BF4 /* Frameworks */,
 				CE4EC6CA26CCEA86003B7BF4 /* Resources */,
@@ -537,6 +430,7 @@
 				CE4EC6DE26CCEB7D003B7BF4 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				CE4EC6ED26CCEE31003B7BF4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				CE435CFC26CE1B4000AFD4D2 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				CE33FEFB26E25C6100F0AA9A /* XCRemoteSwiftPackageReference "core-dicoding-expert" */,
 			);
 			productRefGroup = CE4EC6B126CCEA84003B7BF4 /* Products */;
 			projectDirPath = "";
@@ -576,6 +470,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		51EFFC2F39AF5330FD09D57C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicoding-expert-dicoding-expertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6BBD98DF79A7B912AB1BA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicoding-expertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F76A58F5D5BD09293EE81C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicoding-expert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CE4EC6F026CCF9C5003B7BF4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -600,30 +560,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE359AE26CF54290098970A /* GetRestaurantsUseCase.swift in Sources */,
 				CEE359BD26CF5B290098970A /* DetailView.swift in Sources */,
 				CEE359B026CF55E60098970A /* HomeView.swift in Sources */,
 				CEE359C226CF80050098970A /* DetailPresenter.swift in Sources */,
-				CE435D0B26CE22C300AFD4D2 /* RestaurantRemoteDataSource.swift in Sources */,
 				CEE359B426CF565B0098970A /* HomePresenter.swift in Sources */,
 				CE4EC6B626CCEA84003B7BF4 /* ContentView.swift in Sources */,
 				CE196BB226D8A75D00412B59 /* ProfileView.swift in Sources */,
-				CEE359C426CF80480098970A /* SaveRestaurantUseCase.swift in Sources */,
 				CEE359B726CF56AB0098970A /* HomeRouter.swift in Sources */,
-				CE435D1126CE279900AFD4D2 /* RestaurantRepository.swift in Sources */,
-				CE79AF3626D75050004B6E19 /* TabItem.swift in Sources */,
-				CE435D0826CE226C00AFD4D2 /* RestaurantResponse.swift in Sources */,
-				CE435D1426CE27F100AFD4D2 /* RestaurantModel.swift in Sources */,
-				CE435D0426CE21A500AFD4D2 /* CustomError+Ext.swift in Sources */,
 				CEE359BF26CF5BB60098970A /* RestaurantRow.swift in Sources */,
-				CE435D0226CE1D0300AFD4D2 /* RestaurantLocalDataSource.swift in Sources */,
-				CE435CFB26CE174400AFD4D2 /* RestaurantEntity.swift in Sources */,
-				CE435D1726CE2A1100AFD4D2 /* RestaurantMapper.swift in Sources */,
 				CE64A2C226D798AE0010ED76 /* FavoritePresenter.swift in Sources */,
-				CE435D1926CE2F6700AFD4D2 /* Injection.swift in Sources */,
-				CE435D0F26CE247700AFD4D2 /* APICall.swift in Sources */,
 				CE4EC6B426CCEA84003B7BF4 /* dicoding_expertApp.swift in Sources */,
-				CEE359BA26CF59F10098970A /* ActivityIndicator.swift in Sources */,
 				CEB19A8426D7844800314E4B /* FavoriteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -778,6 +724,7 @@
 		};
 		CE4EC6D626CCEA86003B7BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73ECD8A51AFB17A1D8F502DB /* Pods-dicoding-expert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -785,7 +732,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dicoding-expert/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dicoding-expert/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -799,6 +746,7 @@
 		};
 		CE4EC6D726CCEA86003B7BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D24C7515B2BEC1CFA8C1886 /* Pods-dicoding-expert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -806,7 +754,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dicoding-expert/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dicoding-expert/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -820,6 +768,7 @@
 		};
 		CE4EC6D926CCEA86003B7BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B088B13AF5E207D7B4CA200 /* Pods-dicoding-expertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -841,6 +790,7 @@
 		};
 		CE4EC6DA26CCEA86003B7BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED95387C5AF5A48458D0CBC2 /* Pods-dicoding-expertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -862,6 +812,7 @@
 		};
 		CE4EC6DC26CCEA86003B7BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378371E629E038CC45AABD3D /* Pods-dicoding-expert-dicoding-expertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -881,6 +832,7 @@
 		};
 		CE4EC6DD26CCEA86003B7BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCA3EB57FB86E77694B2EAB /* Pods-dicoding-expert-dicoding-expertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -940,6 +892,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CE33FEFB26E25C6100F0AA9A /* XCRemoteSwiftPackageReference "core-dicoding-expert" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rizkyalfauji11/core-dicoding-expert.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		CE435CFC26CE1B4000AFD4D2 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
@@ -967,20 +927,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE435CFD26CE1B4000AFD4D2 /* Realm */ = {
+		CE33FEFC26E25C6100F0AA9A /* CorePackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE435CFC26CE1B4000AFD4D2 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
-			productName = Realm;
-		};
-		CE435CFF26CE1B4000AFD4D2 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE435CFC26CE1B4000AFD4D2 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
-			productName = RealmSwift;
-		};
-		CE4EC6DF26CCEB7E003B7BF4 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE4EC6DE26CCEB7D003B7BF4 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
+			package = CE33FEFB26E25C6100F0AA9A /* XCRemoteSwiftPackageReference "core-dicoding-expert" */;
+			productName = CorePackage;
 		};
 		CE4EC6EE26CCEE31003B7BF4 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;

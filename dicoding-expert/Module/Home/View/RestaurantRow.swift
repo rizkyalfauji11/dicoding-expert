@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
+import CorePackage
 
 struct RestaurantRow: View {
     var restaurant: RestaurantModel
@@ -56,8 +57,3 @@ extension RestaurantRow {
     
 }
 
-struct RestaurantRow_Previews: PreviewProvider {
-    static var previews: some View {
-        RestaurantRow(restaurant: RestaurantModel(id: "1", name: "Example", imageUrl: "https://www.themealdb.com/images/category/beef.png", description: "Lorem ipsum sir amet", city: "", rating: 0.0, isFavorited: false))
-    }
-}

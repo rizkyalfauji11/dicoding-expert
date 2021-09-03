@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CorePackage
 
 @main
 struct dicoding_expertApp: App {

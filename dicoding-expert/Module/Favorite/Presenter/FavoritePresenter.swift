@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import CorePackage
 
 class FavoritePresenter: ObservableObject {
     

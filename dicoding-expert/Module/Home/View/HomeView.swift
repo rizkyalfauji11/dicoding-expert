@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CorePackage
 
 struct HomeView: View {
     

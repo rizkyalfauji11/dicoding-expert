@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import CorePackage
 
 class DetailPresenter: ObservableObject {
     private var cancellables: Set<AnyCancellable> = []
