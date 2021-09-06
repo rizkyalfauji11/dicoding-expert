@@ -1,4 +1,5 @@
-language: swift
+language: 
+  - swift
 osx_image: xcode12.5
 xcode_project: dicoding-expert.xcodeproj 
 xcode_scheme: dicoding-expert
